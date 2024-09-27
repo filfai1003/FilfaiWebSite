@@ -4,57 +4,62 @@ body {
   color: #ffaa00;
 }
 
+footer {
+  background-color: #1b0001; /* Same as the body background for consistency */
+  color: #ffaa00; /* Footer text color matching the body text */
+  padding: 20px; /* Padding for space inside the footer */
+  text-align: center; /* Center the text in the footer */
+  border-top: 2px solid #ffaa00; /* Add a top border to distinguish the footer */
+  font-size: 0.9em; /* Slightly smaller font size for footer text */
+  margin-top: 20px;
+}
+
 .column {
-  border: 8px solid black;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   flex-wrap: wrap;
-  align-content: space-evenly;
-  justify-items: center;
 }
 
 .row {
-  border: 8px solid black;
   display: flex;
   flex-direction: row;
-  gap: 20px;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  align-items: center;
 }
 
 .multi-row {
-  border: 8px solid black;
   display: flex;
   flex-direction: row;
-  gap: 20px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  align-items: center;
 }
 
-.box {
-  display: flex;
-  padding: 20px;
-  background-color: #4b0002;
-  font-size: 40pt;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+h1 {
+  font-size: 2em; /* Larger font size for the title */
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 10px; /* Add some space below the title */
+  text-align: center; /* Center the title */
 }
 
-.title {
-
+h2 {
+  font-size: 1.5em; /* Slightly smaller font size than the title */
+  font-weight: normal; /* Normal weight for subtitle */
+  margin-bottom: 8px; /* Add space below the subtitle */
+  text-align: center; /* Center the subtitle */
 }
 
-.sub-title {
-
+p {
+  font-size: 1em; /* Regular font size for text */
+  line-height: 1.5; /* Increase the line spacing for readability */
+  margin-bottom: 15px; /* Add space between paragraphs */
 }
 
-.text {
-  
+button {
+  background-color: #ffaa00; /* Button background color matching the text color */
+  color: #1b0001; /* Button text color contrasting with the background */
+  border: none; /* Remove the default border */
+  padding: 10px 20px; /* Add some padding for a better button size */
+  font-size: 1em; /* Set font size for the button text */
+  font-weight: bold; /* Make the button text bold */
+  cursor: pointer; /* Change cursor to pointer when hovering */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
